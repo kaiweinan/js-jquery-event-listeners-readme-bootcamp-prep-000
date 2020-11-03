@@ -23,5 +23,9 @@ $(document).ready(function(){
   }
 
 function submitIt(){
-  
+  $("form").on("submit",function(){
+    if ($("input:first").val()==="correct"){
+      alert()
+    }
+  })
 }
