@@ -30,3 +30,9 @@ function submitIt(){
     }
   })
 }
+
+
+getIt();
+frameIt();
+pressIt();
+submitIt();
